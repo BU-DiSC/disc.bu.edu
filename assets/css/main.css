@@ -189,6 +189,7 @@ h4 { font: 600 14px/1.2 var(--font-sans); letter-spacing: 1px; text-transform: u
 
 /* Squarespace 12-column rows kept by the exporter (e.g. Classes) */
 .sqs-row { display: flex; margin: 0 -17px; }
+.sqs-row.v-center { align-items: center; }  /* e.g. a photo next to a logo in a news post */
 .sqs-col { padding: 0 17px; min-width: 0; }
 .sqs-col > :first-child { margin-top: 0; }
 .span-1 { flex: 0 0 8.3333%; max-width: 8.3333%; }
