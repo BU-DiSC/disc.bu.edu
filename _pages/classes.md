@@ -102,7 +102,7 @@ This required two-credit course is designed to help guide entering Ph.D. student
 
 **Instructors:** [Manos Athanassoulis](https://cs-people.bu.edu/mathan/), [Ankush Dash](https://ankushdas.github.io/) (Spring 2026)
 
-**Class Website:** [Spring 2026](https://bu-disc.github.io/CS697/), [Spring 2020](http://cs-people.bu.edu/mathan/classes/CS697-Spring2020/) (Instructors: [Steve Homer](http://www.cs.bu.edu/~homer/), [Manos Athanassoulis](https://cs-people.bu.edu/mathan/))
+**Class Website:** [Spring 2026](https://bu-disc.github.io/CS697/), [Spring 2020](http://cs-people.bu.edu/mathan/classes/CS697-Spring2020/) (Instructors: [Steve Homer](https://www.bu.edu/cs/profiles/homer/), [Manos Athanassoulis](https://cs-people.bu.edu/mathan/))
 
 </div>
 </div>

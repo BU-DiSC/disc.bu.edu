@@ -5,6 +5,6 @@ image: /assets/img/news-blog/dimitris.jpg
 permalink: /news-blog/dimitris-joins-tiledb
 ---
 
-Congratulations to [Dimitris](https://cs-people.bu.edu/dstara/) who joins [TileDB](https://tiledb.com/) after graduating with a Master's degree! Dimitri, good luck to your new steps!
+Congratulations to [Dimitris](https://www.linkedin.com/in/dimitris-staratzis/) who joins [TileDB](https://tiledb.com/) after graduating with a Master's degree! Dimitri, good luck to your new steps!
 
 ![](/assets/img/news-blog/dimitris.jpg)

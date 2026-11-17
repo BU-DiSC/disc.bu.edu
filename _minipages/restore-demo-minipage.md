@@ -1,5 +1,5 @@
 ---
-title: 'ReStore-in-Action: RL-based Multi-Tier Storage Management'
+title: 'ReStore-in-Action: Adaptive Multi-Tier Storage Management via Intelligent Data Migration Policy'
 date: 2026-06-04 15:42:19 +0000
 tags:
 - Demo

@@ -14,7 +14,7 @@ links:
   url: https://cs-people.bu.edu/mathan/publications/slides/damon21-papon.pdf
 - label: Presentation Video
   url: https://www.youtube.com/watch?v=wBhxFxVbh3I
-- label: Project Website
+- label: Project website
   url: http://disc-projects.bu.edu/parametric-io-model/
 - label: Experimental Codebase
   url: https://github.com/BU-DiSC/PIO-model

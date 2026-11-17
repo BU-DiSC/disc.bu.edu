@@ -10,7 +10,7 @@ links:
   url: https://www.vldb.org/pvldb/vol18/p399-athanassoulis.pdf
 - label: Local PDF
   url: https://cs-people.bu.edu/mathan/publications/vldb24-wang.pdf
-- label: Artifact
+- label: Artifacts
   url: https://github.com/junchangwang/CUBIT
 order: 66
 permalink: /papers/vldb24-wang

@@ -11,7 +11,7 @@ links:
   url: https://dl.acm.org/doi/10.1145/3725327
 - label: Local PDF
   url: https://cs-people.bu.edu/mathan/publications/pacmmod25-zhu.pdf
-- label: Artifact
+- label: Artifacts
   url: https://github.com/BU-DiSC/Mnemosyne
 - label: Presentation Video
   url: https://www.youtube.com/watch?v=Kspwlo1vi48
