@@ -10,7 +10,7 @@ links:
   url: https://openproceedings.org/2025/conf/edbt/paper-118.pdf
 - label: Local PDF
   url: https://cs-people.bu.edu/mathan/publications/edbt25-raman.pdf
-- label: Artifact
+- label: Artifacts
   url: https://github.com/BU-DiSC/quick-insertion-tree
 - label: Slides
   url: https://cs-people.bu.edu/mathan/publications/slides/edbt25-raman-slides.pdf

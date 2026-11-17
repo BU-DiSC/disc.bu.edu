@@ -12,7 +12,7 @@ links:
   url: http://dl.acm.org/authorize?N37409
 - label: Local PDF
   url: https://cs-people.bu.edu/mathan/publications/sigmod17-kester.pdf
-- label: Demo
+- label: Demo website
   url: http://daslab.seas.harvard.edu/access-path-selection/
 order: 23
 external_url: http://daslab.seas.harvard.edu/access-path-selection/

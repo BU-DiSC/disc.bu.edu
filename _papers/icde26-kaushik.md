@@ -3,7 +3,7 @@ title: 'RangeReduce: Query-Driven LSM Compactions'
 date: 2026-03-03 16:45:00 +0000
 tags:
 - IEEE ICDE
-venue: Proceedings of the IEEE International Conference on Data Engineering (IEEE ICDE), 2026.
+venue: Proceedings of the IEEE International Conference on Data Engineering (IEEE ICDE), 2026
 authors: Shubham Kaushik, Manos Athanassoulis, Subhadeep Sarkar
 links:
 - label: IEEE Xplore

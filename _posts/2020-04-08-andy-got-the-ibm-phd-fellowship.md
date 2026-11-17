@@ -5,6 +5,6 @@ image: /assets/img/news-blog/andy.jpg
 permalink: /news-blog/andy-got-the-ibm-phd-fellowship
 ---
 
-Congratulations to [Andy](https://cs-people.bu.edu/ndhuynh/) for receiving the [2020 IBM PhD Fellowship](https://www.research.ibm.com/university/awards/fellowships-awardees.html) for his work on Robust Data Systems!
+Congratulations to [Andy](https://www.linkedin.com/in/ndhuynh0/) for receiving the [2020 IBM PhD Fellowship](https://www.research.ibm.com/university/awards/fellowships-awardees.html) for his work on Robust Data Systems!
 
 ![](/assets/img/news-blog/andy.jpg)

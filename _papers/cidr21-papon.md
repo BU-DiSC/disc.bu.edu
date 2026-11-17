@@ -10,7 +10,7 @@ links:
   url: http://cs-people.bu.edu/mathan/publications/cidr21-papon.pdf
 - label: Official PDF
   url: http://cidrdb.org/cidr2021/papers/cidr2021_abstract04.pdf
-- label: Project Website
+- label: Project website
   url: http://disc-projects.bu.edu/parametric-io-model/
 order: 31
 permalink: /papers/cidr21-papon

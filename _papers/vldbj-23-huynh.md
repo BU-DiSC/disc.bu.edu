@@ -10,7 +10,7 @@ links:
   url: https://link.springer.com/article/10.1007/s00778-023-00826-9
 - label: Local PDF
   url: https://cs-people.bu.edu/mathan/publications/vldbj24-huynh.pdf
-- label: ArXiv
+- label: arXiv
   url: https://arxiv.org/abs/2311.10005
 order: 58
 permalink: /papers/vldbj-23-huynh

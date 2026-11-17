@@ -5,6 +5,6 @@ image: /assets/img/news-blog/dimitris.jpg
 permalink: /news-blog/dimitris-got-the-gerondelis-foundation-scholarship
 ---
 
-Congratulations to [Dimitris](https://cs-people.bu.edu/dstara/) for receiving the Eleni Gatzoyannis and the Gerondelis Foundation Scholarships!
+Congratulations to [Dimitris](https://www.linkedin.com/in/dimitris-staratzis/) for receiving the Eleni Gatzoyannis and the Gerondelis Foundation Scholarships!
 
 ![](/assets/img/news-blog/dimitris.jpg)

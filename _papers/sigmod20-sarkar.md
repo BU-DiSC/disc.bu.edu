@@ -14,7 +14,7 @@ links:
   url: https://cs-people.bu.edu/mathan/publications/slides/sigmod2020-lethe.pdf
 - label: Slides (long version)
   url: https://cs-people.bu.edu/mathan/publications/slides/sigmod2020-lethe-long.pdf
-- label: Project Website
+- label: Project website
   url: https://disc-projects.bu.edu/lethe/
 - label: BibTeX
   url: https://dblp.org/rec/bibtex/conf/sigmod/SarkarPSA20
