@@ -3,8 +3,8 @@ title: Towards Flexibility and Robustness of LSM Trees
 date: 2023-12-02 05:25:00 +0000
 tags:
 - VLDBJ
-venue: The VLDB Journal, Vol. 33(4), Special Issue on
-authors: Machine Learning and Databases, 2024 Andy Huynh, Harshal Chaudhari, Evimaria Terzi, Manos Athanassoulis
+venue: The VLDB Journal, Vol. 33(4), Special Issue on Machine Learning and Databases, 2024
+authors: Andy Huynh, Harshal Chaudhari, Evimaria Terzi, Manos Athanassoulis
 links:
 - label: Official Version
   url: https://link.springer.com/article/10.1007/s00778-023-00826-9
