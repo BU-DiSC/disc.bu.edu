@@ -97,10 +97,14 @@ Cut their entry from Current Members and paste it into the right alumni section,
 
 ## Going live (DNS cutover)
 
-1. Push `main`; in the repo's **Settings → Pages**, set *Source* to **GitHub Actions**.
-2. Check the site at the `*.github.io` URL.
-3. Add a `CNAME` file containing `disc.bu.edu`, set the custom domain in Settings → Pages, and
-   ask BU IT to point `disc.bu.edu` at GitHub Pages (a `CNAME` record to `<org>.github.io`).
+1. In the repo's **Settings → Pages**, *Source* is set to **GitHub Actions** (done). Every push
+   to `main` builds and deploys the site.
+2. Check the site at https://bu-disc.github.io/disc.bu.edu/. There it lives in a subfolder, so
+   the build adds `/disc.bu.edu` to every link and image (`_plugins/baseurl_links.rb`, with the
+   folder passed in by the workflow); content files keep plain `/team`-style paths.
+3. Set **Custom domain** to `disc.bu.edu` in Settings → Pages (no `CNAME` file is needed with
+   GitHub Actions) and ask BU IT to point `disc.bu.edu` at GitHub Pages (a `CNAME` record to
+   `bu-disc.github.io`). The next deploy then builds for the root of the domain automatically.
 4. Once DNS has switched and HTTPS is issued, cancel the Squarespace plan.
 
 ## Re-running the export
