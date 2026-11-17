@@ -113,4 +113,4 @@ Related [MiDAS](https://midas.bu.edu) Courses
 
 - CAS CS 562 Advanced Database Applications — [Prof. Kollios](http://www.cs.bu.edu/fac/gkollios/)
 - CAS CS 660 Graduate Introduction to Database Systems — [Prof. Kollios](http://www.cs.bu.edu/fac/gkollios/)
-- CAS CS 565 Algorithmic Data Mining — [Prof. Terzi](https://www.cs.bu.edu/~evimaria/)
+- CAS CS 565 Algorithmic Data Mining — [Prof. Terzi](https://cs-people.bu.edu/evimaria/)
