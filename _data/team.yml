@@ -187,7 +187,7 @@ sections:
     roles:
     - MS Researcher
     year: 2022-09
-    next: OLAP Software Eng. at Bytedance
+    next: OLAP Software Eng. at ByteDance
     photo: /assets/img/team/lanfengliu.jpg
   - name: Jianqi Ma
     roles:
@@ -211,7 +211,7 @@ sections:
     roles:
     - MS Researcher
     year: 2023-03
-    next: Assoc. Software Eng. at Casa System
+    next: Assoc. Software Eng. at Casa Systems
     photo: /assets/img/team/jingyihuang.jpg
   - name: Shuo Zhang
     roles:
@@ -383,7 +383,7 @@ lab_photos:
   image: /assets/img/lab-photos/2025-08-rise-symposium.jpg
 - caption: DiSC @ SIGMOD, June 2025
   image: /assets/img/lab-photos/img_8264.jpg
-- caption: Zichen's and Papon's Graduation, May 2025
+- caption: Zichen and Papon's Graduation, May 2025
   image: /assets/img/lab-photos/2025-05-graduation-papon-zichen.jpeg
 - caption: DiSC @ EDBT, March 2025
   image: /assets/img/lab-photos/a35998b4-e8d1-4934-8540-1f14929df4a2.jpg
@@ -393,7 +393,7 @@ lab_photos:
   image: /assets/img/lab-photos/img_2617-wide.jpg
 - caption: DiSC @ NEDB, May 2024
   image: /assets/img/lab-photos/lab-nedb-2024.jpg
-- caption: C Mohan visiting DiSC, Oct 2023
+- caption: C. Mohan visiting DiSC, October 2023
   image: /assets/img/lab-photos/img_7317.jpg
 - caption: DiSC high-school research interns @ RISE Symposium, August 2023
   image: /assets/img/lab-photos/2023-08-rise-symposium.jpg
