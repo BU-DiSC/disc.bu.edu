@@ -1,0 +1,48 @@
+---
+layout: default
+title: Home
+banner: home
+---
+<div class="row two-col">
+  <div class="col">
+    <p class="block-label">Recent Papers</p>
+    {% assign papers = site.papers | sort: "order" | reverse %}
+    <div class="summary-list home-papers">
+      {% for p in papers limit: 5 %}
+      <div class="summary-item">
+        <div class="summary-title"><a href="{{ p.url | relative_url }}">{{ p.title }}</a></div>
+        {% if p.tags %}<div class="summary-meta">{% for t in p.tags %}<a href="{{ '/papers/tag/' | append: t | replace: ' ', '+' | relative_url }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <div class="col">
+    <p class="block-label">Recent News</p>
+    <div class="summary-list home-news">{% for n in site.posts limit: 5 %}{% include news-card.html post=n %}{% endfor %}</div>
+  </div>
+</div>
+
+<div class="sqs-content home-intro">
+{% capture intro %}{% include home-intro.md %}{% endcapture %}{{ intro | markdownify }}
+</div>
+
+<div class="spacer"></div>
+<hr>
+
+<div class="carousel" data-carousel>
+  <div class="carousel-header">
+    <div class="summary-heading">Demos and Project Pages</div>
+    <div class="carousel-pager">
+      <button class="prev" aria-label="Previous">&#8249;</button>
+      <button class="next" aria-label="Next">&#8250;</button>
+    </div>
+  </div>
+  {% assign minis = site.minipages | sort: "date" | reverse %}
+  <div class="carousel-track">{% for m in minis %}{% include minipage-card.html item=m %}{% endfor %}</div>
+</div>
+
+<div class="spacer"></div>
+<hr>
+
+<h1 class="center sponsors-title">Our Sponsors</h1>
+<ul class="sponsors">{% for s in site.data.sponsors %}<li><img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" loading="lazy"></li>{% endfor %}</ul>

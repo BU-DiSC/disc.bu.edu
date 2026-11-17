@@ -1,0 +1,430 @@
+# Team page data. The first section is "Current Members"; every later section is shown
+# under "Alumni". Each section is ordered by `year` (format: 2024 or 2024-09):
+#   current members: year joined, earliest first;  alumni: year left, most recent first.
+# People without a year are listed last, in the order they appear here. Optional `rank`
+# (lower first) groups people within a section, e.g. visiting faculty / PhD / undergrads.
+sections:
+- title: Current Members
+  people:
+  - name: Manos Athanassoulis
+    roles:
+    - Associate Professor
+    - DiSC Lab Director
+    pin: true   # always first
+    office: CCDS 928
+    email: mathan@bu.edu
+    website: https://cs-people.bu.edu/mathan/
+    photo: /assets/img/team/manos-bu-brink-square-zoomed-reshoot.png
+  - name: Teona Bagashvili
+    roles:
+    - PhD Researcher
+    year: 2023-09
+    office: CCDS 941
+    email: teona@bu.edu
+    website: https://cs-people.bu.edu/teona/
+    photo: /assets/img/team/teona.png
+  - name: Anwesha Saha
+    roles:
+    - PhD Researcher
+    year: 2024-09
+    office: CCDS 944
+    email: anwesha@bu.edu
+    website: https://cs-people.bu.edu/anwesha/
+    photo: /assets/img/team/anwesha-saha-420x420.jpeg
+  - name: Andrew Briasco-Stewart
+    roles:
+    - PhD Researcher
+    year: 2025-09
+    office: CCDS 925
+    email: abriasco@bu.edu
+    website: https://cs-people.bu.edu/abriasco/
+    photo: /assets/img/team/andrew-briasco-stewart.jpeg
+  - name: Can Gokmen
+    roles:
+    - U-grad Researcher
+    year: 2024-09
+    photo: /assets/img/team/cangokmen.jpeg
+  - name: Suhruth Vuppala
+    roles:
+    - U-grad Researcher
+    year: 2024-09
+    photo: /assets/img/team/suhruthvuppala.jpg
+  - name: Philip Chindris
+    roles:
+    - U-grad Researcher
+    year:
+    photo: /assets/img/team/2025-rise-philip-chindris.jpg
+- title: Postdoctoral and Graduate Researchers
+  people:
+  - name: Dimitris Staratzis
+    roles:
+    - Graduate Researcher
+    year: 2020-12
+    next: Software Eng. at TileDB Inc.
+    photo: /assets/img/team/dimitris.jpg
+    website: https://www.linkedin.com/in/dimitris-staratzis-4b388b170/
+  - name: Subhadeep Sarkar
+    roles:
+    - Postdoc Researcher
+    year: 2023-06
+    next: Asst. Professor at Brandeis
+    photo: /assets/img/news-blog/subjadeep.jpeg
+    website: https://www.linkedin.com/in/sarkarsubhadeep/
+  - name: Ju Hyoung Mun
+    roles:
+    - Postdoctoral Fellow
+    year: 2024-06
+    next: Asst. Prof. at Brandeis
+    photo: /assets/img/news-blog/juhyoung.jpg
+    website: https://www.linkedin.com/in/ju-hyoung-mun-791861166/
+  - name: Zichen Zhu
+    roles:
+    - PhD Researcher
+    year: 2025-05
+    next: Software Engineer at Google
+    photo: /assets/img/news-blog/zichen.png
+    website: https://www.linkedin.com/in/zichen-zhu-723a53a5
+  - name: Tarikul Islam Papon
+    roles:
+    - PhD Researcher
+    year: 2025-05
+    next: Asst. Professor at UMass Boston
+    photo: /assets/img/news-blog/papon.jpg
+    website: https://www.linkedin.com/in/tarikul-islam-papon-264581191/
+  - name: Kostas Karatsenidis
+    roles:
+    - Graduate Researcher
+    year: 2025-07
+    next: Software Eng. at Tower Research Cap.
+    photo: /assets/img/team/kostaskaratsenidis.png
+    website: https://www.linkedin.com/in/karatse/
+  - name: Aneesh Raman
+    roles:
+    - PhD Researcher
+    year: 2025-12
+    next: Sr. MTS at Salesforce
+    photo: /assets/img/team/657b4429.jpg
+    website: https://www.linkedin.com/in/aneesh-raman/
+  - name: Andy Huynh
+    roles:
+    - PhD Researcher
+    year: 2026-03
+    next: Software Eng. at Google
+    photo: /assets/img/team/andy.jpg
+    website: https://www.linkedin.com/in/ndhuynh0/
+- title: Visiting Researchers
+  people:
+  - name: Xiyue Gao
+    roles:
+    - Visiting Faculty
+    year:
+    rank: 1
+    next: continue at Xidian University
+    photo: /assets/img/team/2024-visitingfaculty-xiyuegao.jpg
+    website: https://scholar.google.com.hk/citations?user=grbVcy4AAAAJ&hl=en
+  - name: Tianru Zhang
+    roles:
+    - Visit. PhD Student
+    year: 2023-12
+    rank: 2
+    next: continue PhD at Uppsala University
+    photo: /assets/img/team/2023-vphd-tianru.jpg
+  - name: Yiyun Zheng
+    roles:
+    - Visit. UG Researcher
+    year: 2025-01
+    rank: 3
+    next: continue UG at Nanjing University
+    photo: /assets/img/team/yiyunzheng.jpg
+  - name: Yanpeng Wei
+    roles:
+    - Visit. UG Researcher
+    year: 2024-08
+    rank: 3
+    next: PhD at Wisc-Madison Univ.
+    photo: /assets/img/team/yanpengwei.jpg
+  - name: Shrish Senthilkumar
+    roles:
+    - Visit. UG Researcher
+    year: 2025-09
+    rank: 3
+    next: continue UG at Purdue University
+    photo: /assets/img/team/2025-visiting-ug-shrish.jpg
+- title: MS & Undergraduate Researchers
+  people:
+  - name: Guanting Chen
+    roles:
+    - MS Researcher
+    year: 2020-06
+    next: PhD at Northeastern
+    photo: /assets/img/team/guanting.jpg
+    website: https://gtchenus.github.io/
+  - name: Caterina Caravaggio
+    roles:
+    - Visit. MS Researcher
+    year: 2020-08
+    next: Data Eng. at Data Reply IT
+    photo: /assets/img/team/caterina.jpg
+  - name: Zheng Hui
+    roles:
+    - U-grad Researcher
+    year: 2020-08
+    next: MS at Columbia University
+    photo: /assets/img/team/zhenghui.jpg
+  - name: Sean Brady
+    roles:
+    - MS Researcher
+    year: 2021-09
+    next: Software Eng. at Juniper Networks
+    photo: /assets/img/team/sean_brady.jpg
+  - name: Kaijie Chen
+    roles:
+    - MS Researcher
+    year: 2021-12
+    next: Software Data Eng. at PingCAP
+    photo: /assets/img/team/image-from-ios-2-.jpg
+  - name: Lanfeng Liu
+    roles:
+    - MS Researcher
+    year: 2022-09
+    next: OLAP Software Eng. at Bytedance
+    photo: /assets/img/team/lanfengliu.jpg
+  - name: Jianqi Ma
+    roles:
+    - U-grad Researcher
+    year: 2022-09
+    next: Technical Staff at Pure Storage
+    photo: /assets/img/team/jianqima.jpg
+  - name: Meng-Heng Lee
+    roles:
+    - U-grad Researcher
+    year: 2022-09
+    next: Intern at Allianz
+    photo: /assets/img/team/menghenglee.jpg
+  - name: Ning Wang
+    roles:
+    - U-grad Researcher
+    year: 2022-09
+    next: Cloud Software Eng. at Intel Corp.
+    photo: /assets/img/team/ningwang.jpg
+  - name: Jingyi Huang
+    roles:
+    - MS Researcher
+    year: 2023-03
+    next: Assoc. Software Eng. at Casa System
+    photo: /assets/img/team/jingyihuang.jpg
+  - name: Shuo Zhang
+    roles:
+    - U-grad Researcher
+    year: 2023-03
+    next: MS at Columbia University
+    photo: /assets/img/team/shuozhang.jpg
+  - name: Taishan Chen
+    roles:
+    - MS Researcher
+    year: 2023-08
+    next: PhD at Boston University CDS
+    photo: /assets/img/team/taishanchen.jpg
+  - name: Shaolin Xie
+    roles:
+    - MS Researcher
+    year: 2024-03
+    next: PhD at Univ. of Southern California
+    photo: /assets/img/team/shaolinxie.jpg
+  - name: Aaron Ang
+    roles:
+    - U-grad Researcher
+    year: 2024-08
+    next: MS at UCSD
+    photo: /assets/img/team/aaronang2.png
+  - name: Ran Wei
+    roles:
+    - MS Researcher
+    year: 2024-05
+    next: Infrastructure Engineer at Temu
+    photo: /assets/img/team/2023-ms-ranwei.jpg
+  - name: Shubham Kaushik
+    roles:
+    - MS Researcher
+    year: 2023-12
+    next: PhD at Brandeis University
+    photo: /assets/img/team/2023-ms-shubham.jpeg
+  - name: Jinqi Lu
+    roles:
+    - MS Researcher
+    year: 2024-08
+    next: PhD at Johns Hopkins University
+    photo: /assets/img/team/2023-ms-intern-jinqilukevin.jpg
+  - name: Sakshi Sharma
+    roles:
+    - MS Researcher
+    year: 2024-08
+    next: PhD at Boston University CS
+    photo: /assets/img/team/sakshisharma.jpg
+  - name: Lucas Yoon
+    roles:
+    - BA/MS Researcher
+    year: 2025-05
+    next: Software Engineer at Red Hat
+    photo: /assets/img/team/lucasyoon.jpg
+  - name: Panos Koutsoukos
+    roles:
+    - U-grad Researcher
+    year: 2025-08
+    next: Master of Finance at MIT Sloan
+    photo: /assets/img/team/panoskoutsoukos2.png
+  - name: Aditya Chowdhri
+    roles:
+    - U-grad Researcher
+    year: 2024-12
+    next: Software Engineer at Palantir
+    photo: /assets/img/team/adityachowdri.jpg
+- title: High-School Researchers
+  people:
+  - name: Naomi Johnson
+    roles:
+    - RISE Intern
+    year: 2019-08
+    next: undergrad at Northeastern
+    photo: /assets/img/team/placeholder-female.png
+  - name: Kevin Xu
+    roles:
+    - RISE Intern
+    year: 2019-08
+    next: undergrad at Univ. of Washington
+    photo: /assets/img/team/kevinx.jpg
+    website: https://www.linkedin.com/in/kevin-xu-8099/
+  - name: Rachel Kim
+    roles:
+    - High-school Intern
+    year: 2020-08
+    next: undergrad at Caltech
+    photo: /assets/img/team/rachelkim.jpg
+  - name: Andrew Chung
+    roles:
+    - RISE Intern
+    year: 2021-08
+    next: undergrad at Stanford
+    photo: /assets/img/team/andrew_chung.jpg
+  - name: Siddhartha Mishra
+    roles:
+    - RISE Intern
+    year: 2022-03
+    next: undergrad at UCLA
+    photo: /assets/img/team/image-2bfrom-2bios-2b-25281-2529.jpg
+  - name: Venkat Subramanian
+    roles:
+    - RISE Intern
+    year: 2022-09
+    next: undergrad at Princeton
+    photo: /assets/img/team/venkat-square.jpg
+  - name: Grace Sun
+    roles:
+    - RISE Intern
+    year: 2022-08
+    next: undergrad at Princeton
+    photo: /assets/img/team/gracesun.jpg
+  - name: Savir Basil
+    roles:
+    - High-school Intern
+    year: 2023-08
+    next: undergrad at Univ. of Pennsylvania
+    photo: /assets/img/team/2023-hs-savir-basil.jpg
+  - name: Ronin Bae
+    roles:
+    - High-school Intern
+    year: 2023-08
+    next: undergrad at Rutgers University
+    photo: /assets/img/team/2023-hs-ronin-bae.jpg
+  - name: Clara Hensinger
+    roles:
+    - RISE Intern
+    year: 2023-08
+    next: undergrad at Tufts University
+    photo: /assets/img/team/2023-rise-clara-hensinger.jpg
+  - name: Ben Bethune
+    roles:
+    - RISE Intern
+    year: 2023-08
+    next: undergrad at Clemson University
+    photo: /assets/img/team/2023-rise-ben-bethune.jpg
+  - name: Anand Madarapu
+    roles:
+    - High-school Intern
+    year: 2023-08
+    next: undergrad at Boston University
+    photo: /assets/img/team/2023-hs-anand-madarapu.jpg
+  - name: Alex Song
+    roles:
+    - RISE Intern
+    year: 2023-08
+    next: undergrad at Univ. of Pennsylvania
+    photo: /assets/img/team/2023-rise-alex-song.jpg
+  - name: Prisha Shah
+    roles:
+    - RISE Intern
+    year: 2024-08
+    next: undergrad at Univ. of Washington
+    photo: /assets/img/team/2024-rise-prisha-shah.jpg
+  - name: Philip Chindris
+    roles:
+    - RISE Intern
+    year: 2025-08
+    next: undergrad at CMU
+    photo: /assets/img/team/2025-rise-philip-chindris.jpg
+lab_photos:
+- caption: DiSC lab and its branches @ VLDB, September 2026
+  image: /assets/img/banners/2026-vldb-disc-and-friends.jpg
+- caption: Aneesh's Graduation, May 2026
+  image: /assets/img/lab-photos/2026-05-graduation-aneesh.jpg
+- caption: Andy's Graduation, May 2026
+  image: /assets/img/lab-photos/2026-05-graduation-andy.jpg
+- caption: DiSC @ RISE Symposium, August 2025
+  image: /assets/img/lab-photos/2025-08-rise-symposium.jpg
+- caption: DiSC @ SIGMOD, June 2025
+  image: /assets/img/lab-photos/img_8264.jpg
+- caption: Zichen's and Papon's Graduation, May 2025
+  image: /assets/img/lab-photos/2025-05-graduation-papon-zichen.jpeg
+- caption: DiSC @ EDBT, March 2025
+  image: /assets/img/lab-photos/a35998b4-e8d1-4934-8540-1f14929df4a2.jpg
+- caption: Lab outing at BU Castle, December 2024
+  image: /assets/img/lab-photos/img_6749.jpg
+- caption: DiSC & Collaborators @ SIGMOD, June 2024
+  image: /assets/img/lab-photos/img_2617-wide.jpg
+- caption: DiSC @ NEDB, May 2024
+  image: /assets/img/lab-photos/lab-nedb-2024.jpg
+- caption: C Mohan visiting DiSC, Oct 2023
+  image: /assets/img/lab-photos/img_7317.jpg
+- caption: DiSC high-school research interns @ RISE Symposium, August 2023
+  image: /assets/img/lab-photos/2023-08-rise-symposium.jpg
+- caption: Lab outing for candlepick bowling, May 2023
+  image: /assets/img/lab-photos/img_2908.jpg
+- caption: Lab Vasilopita, February 2023
+  image: /assets/img/lab-photos/disclab-2023-02.jpg
+- caption: DiSC @ ICDE, April 2023
+  image: /assets/img/lab-photos/2023-04-04-09.14.35.jpg
+- caption: DiSC @ VLDB, August 2022
+  image: /assets/img/lab-photos/img_5634.jpg
+- caption: DiSC @ SIGMOD, June 2022
+  image: /assets/img/lab-photos/disclab-2022-06.jpg
+- caption: Lab outing @ Nahant, September 2021
+  image: /assets/img/lab-photos/disclab-2021-09b.jpg
+- caption: Lab outing @ Nahant, September 2021
+  image: /assets/img/lab-photos/disclab-2021-09.jpg
+- caption: Lab outing @ Harvard Square, December 2020
+  image: /assets/img/lab-photos/disclab-2020-12.jpg
+- caption: Lab outing @ Nahant, August 2020
+  image: /assets/img/lab-photos/disclab-2020-08.jpg
+- caption: Lab outing @ Nahant, August 2020
+  image: /assets/img/lab-photos/disclab-2020-08b.jpg
+- caption: Lab meeting, March 2020
+  image: /assets/img/lab-photos/disclab-2020-03.jpg
+- caption: Lab dinner @ Scoozi, December 2019
+  image: /assets/img/lab-photos/disclab-2019-12.jpg
+join_us: 'We are looking for motivated students to join the team. [**Read this**](https://cs-people.bu.edu/mathan/#prospective-students) **before sending me an email.**
+
+
+  **MS & Undergrad:** Current BU students may join the lab through a Directed Study or [UROP](https://www.bu.edu/urop/). Prerequisites: CS 460 Intro to Database Systems or 660 Grad Intro to Database Systems or CS 561 Data Systems Architectures.
+
+
+  **PhD:** The graduate program deadline is December 15. A summary of application requirements is provided on the [BU CS website](https://www.bu.edu/cs/phd-program/phd/).'

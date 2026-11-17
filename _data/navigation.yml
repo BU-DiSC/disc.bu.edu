@@ -1,0 +1,27 @@
+# Header navigation. Items with `children` render as dropdowns.
+- title: Home
+  url: /
+- title: Team
+  url: /team
+- title: News
+  url: /news
+- title: Research
+  children:
+    - {title: Projects, url: /research}
+    - {title: Artifacts, url: /research-artifacts}
+    - {title: Demos & Blogs, url: "https://disc-projects.bu.edu/"}
+- title: Classes
+  url: /classes
+- title: Seminars
+  children:
+    - {title: MiDAS Seminar, url: "https://midas.bu.edu/seminar.html"}
+    - {title: BU Systems Seminar, url: "https://sites.bu.edu/systems-seminar/"}
+- title: Internal
+  children:
+    - {title: MiDAS Slack, url: "https://budata.slack.com"}
+    - {title: BU Systems Slack, url: "https://busystemsgroup.slack.com"}
+    - {title: wiki, url: /wiki}
+    - {title: DiSC mailing list (members only), url: "mailto:disc-list@bu.edu"}
+- title: Publications
+  url: /publications
+  button: true   # rendered as the outlined pill on the right

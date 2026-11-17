@@ -1,0 +1,7 @@
+---
+layout: default
+title: mini-pages
+permalink: /minipages
+---
+{% assign minis = site.minipages | sort: "date" | reverse %}
+<div class="summary-list carousel-list">{% for m in minis %}{% include minipage-card.html item=m %}{% endfor %}</div>

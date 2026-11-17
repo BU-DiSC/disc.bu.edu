@@ -1,0 +1,18 @@
+# Old URL -> new URL. Each entry becomes a small HTML page with a meta refresh.
+# (GitHub Pages can't do server-side redirects.)
+/home: /
+/papers: /publications
+/news-blog: /news
+/papers/category/SIGMOD+2020: /papers/tag/ACM+SIGMOD
+/papers/category/VLDBJ+2019: /papers/tag/VLDBJ
+
+# Short links that redirected elsewhere on Squarespace (via a meta refresh in the page header).
+/wiki: https://github.com/BU-DiSC/main/wiki
+/lethe: https://disc-projects.bu.edu/lethe
+/pio: https://disc-projects.bu.edu/parametric-io-model
+/lsm-compaction: https://github.com/BU-DiSC/LSM-Compaction-Analysis
+/relational-memory: https://www.bu.edu/rhcollab/projects/software-hardware/near-data-data-transformation/
+
+# News posts whose Squarespace addresses were copied from other posts.
+/news-blog/dimitris-got-the-gerondelis-foundation-scholarship-gy26d: /news-blog/dimitris-joins-tiledb
+/news-blog/ju-hyoung-joins-brandeis-university-fmg83-858jc-6r2xa: /news-blog/zichen-joins-google

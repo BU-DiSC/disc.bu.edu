@@ -1,0 +1,45 @@
+title: DiSC lab
+description: Data-intensive Systems and Computing Lab at Boston University
+url: https://disc.bu.edu
+baseurl: ""
+address: >-
+  Center of Computing and Data Sciences, 9th floor<br>
+  665 Commonwealth Avenue, Boston, MA, 02215
+github: https://github.com/BU-DiSC
+youtube: https://www.youtube.com/channel/UCi34gQhKtdBUzj3MxPRFK_w
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: /news-blog/:title
+timezone: America/New_York
+
+exclude: [tools, README.md, Gemfile, Gemfile.lock, vendor, .github]
+
+collections:
+  papers:
+    output: true
+  minipages:
+    output: true
+  blog:
+    output: true
+  pages:
+    output: true
+
+defaults:
+  - scope: {path: "", type: papers}
+    values: {layout: paper}
+  - scope: {path: "", type: minipages}
+    values: {layout: minipage}
+  - scope: {path: "", type: blog}
+    values: {layout: post}
+  - scope: {path: "", type: posts}
+    values: {layout: post}
+  - scope: {path: "", type: pages}
+    values: {layout: page}
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

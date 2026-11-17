@@ -1,0 +1,9 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+{% if page.collection_name == "papers" %}
+<div class="summary-list papers">{% for p in page.items %}{% include paper-card.html paper=p %}{% endfor %}</div>
+{% else %}
+<div class="summary-list carousel-list">{% for m in page.items %}{% include minipage-card.html item=m %}{% endfor %}</div>
+{% endif %}

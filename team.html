@@ -1,0 +1,44 @@
+---
+layout: default
+title: Team
+permalink: /team
+banner: team
+---
+{% assign team = site.data.team %}
+{% assign current = team.sections | first %}
+{% assign people = current.people | by_year: "oldest" %}
+{% assign leads = people | where_exp: "p", "p.office" %}
+{% assign others = people | where_exp: "p", "p.office == nil" %}
+
+{% include team-grid.html people=leads size="large" %}
+{% include team-grid.html people=others size="small" %}
+
+<h1 id="photos" class="spaced">Lab photos</h1>
+<div class="slideshow" data-slideshow>
+  <div class="slides">
+    {% for ph in team.lab_photos %}
+    <figure class="slide{% if forloop.first %} active{% endif %}">
+      <img src="{{ ph.image | relative_url }}" alt="{{ ph.caption }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+      <figcaption>{{ ph.caption }}</figcaption>
+    </figure>
+    {% endfor %}
+    <button class="prev" aria-label="Previous photo"></button>
+    <button class="next" aria-label="Next photo"></button>
+  </div>
+  <div class="thumbs">
+    <div class="thumbs-track">{% for ph in team.lab_photos %}<button class="thumb{% if forloop.first %} active{% endif %}" aria-label="{{ ph.caption }}"><img src="{{ ph.image | relative_url }}" alt="" loading="lazy"></button>{% endfor %}</div>
+  </div>
+</div>
+
+<h1 id="alumni" class="spaced">Alumni</h1>
+{% for s in team.sections offset: 1 %}
+<h3>{{ s.title }}</h3>
+{% assign alumni = s.people | by_year %}
+{% include team-grid.html people=alumni size="small" %}
+{% endfor %}
+
+<div class="sqs-content join">
+  <h1><strong>Join Us!</strong></h1>
+  {{ team.join_us | markdownify }}
+  <p class="center"><a class="sqs-button" href="https://bu-grs.liaisoncas.com/applicant-ux/#/login">Apply</a></p>
+</div>

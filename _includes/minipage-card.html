@@ -1,0 +1,5 @@
+{% assign m = include.item %}
+<div class="summary-item">
+  {% if m.tags %}<div class="summary-meta">{% for t in m.tags %}<a href="{{ '/minipages/tag/' | append: t | replace: ' ', '+' | relative_url }}">{{ t }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</div>{% endif %}
+  <div class="summary-title"><a href="{{ m.external_url | default: m.url | relative_url }}">{{ m.title }}</a></div>
+</div>

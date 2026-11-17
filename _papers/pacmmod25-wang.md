@@ -1,0 +1,22 @@
+---
+title: 'RABIT: Efficient Range Queries with Bitmap Indexing'
+date: 2025-08-24 10:09:25 +0000
+tags:
+- ACM SIGMOD
+- PACMMOD
+venue: Proceedings of the ACM Management of Data (PACMMOD), Vol. 3(6), 2025
+authors: Junchang Wang, Fu Xiao, Manos Athanassoulis
+links:
+- label: ACM DL
+  url: https://dl.acm.org/doi/10.1145/3769819
+- label: Local PDF
+  url: https://cs-people.bu.edu/mathan/publications/pacmmod25-wang.pdf
+order: 72
+permalink: /papers/pacmmod25-wang
+---
+
+# Abstract
+
+Range queries (RQ) are crucial for analytical workloads, with indexing support being essential to minimize storage accesses. However, indexing support for RQ faces several challenges. Existing tree-based indexes have suboptimal RQ performance and memory consumption when long-running RQs and short-lived updates coexist. Bitmap indexes show promise in overcoming these challenges because of their small size and their succinct and readily available query result; however, they have inherent limitations: they primarily target read-only, low-cardinality attributes.
+
+In this paper, we propose Range Queries with Bitmap Indexing (RABIT), a solution that addresses these shortcomings. Our design relies on three principles. First, we propose Group Encoding (GE), a novel encoding scheme that provides fast RQs and real-time updates while maintaining high compressibility. Second, we propose an efficient bitvector merging mechanism for GE. Depending on the bit density of each bitvector, we merge it in either its compressed or decompressed form, leveraging SIMD instructions when beneficial. Third, we propose a multi-layer update framework that enables lightweight multi-versioning and native index-only scans, while retaining single-versioned bitvectors, significantly reducing memory usage. Putting everything together, RABIT provides efficient point and range queries on attributes with any cardinality in tables ranging from read-only to frequently updated, unlocking the use of bitmap indexing as a general-purpose secondary index. We demonstrate that RABIT accelerates key DBMS operators (Scan, Join, and Aggregation), achieving substantial performance gains. In a row-store DBMS under HTAP workloads, RABIT offers up to 2.2x faster RQs, 530x faster updates, and 118x smaller footprint than tree indexes. In columnar DuckDB, RABIT accelerates TPC-H queries by up to 14.8x.

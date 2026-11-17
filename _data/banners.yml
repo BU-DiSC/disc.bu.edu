@@ -1,0 +1,35 @@
+home:
+  image: /assets/img/banners/bu-campus-background.jpg
+  position: 50% 50%
+  title: DiSC lab
+  subtitle: Boston University | Computer Science
+team:
+  image: /assets/img/banners/2026-vldb-disc-and-friends.jpg
+  position: 50% 34%
+  title: Team
+  subtitle: ''
+classes:
+  image: /assets/img/banners/teaching.jpg
+  position: 50% 50%
+  title: Classes
+  subtitle: ''
+research:
+  image: /assets/img/banners/research.jpg
+  position: 50% 50%
+  title: Research Projects
+  subtitle: ''
+research-artifacts:
+  image: /assets/img/banners/research.jpg
+  position: 50% 50%
+  title: Research Artifacts
+  subtitle: ''
+publications:
+  image: /assets/img/banners/publications.jpg
+  position: 50% 50%
+  title: Publications
+  subtitle: ''
+news:
+  image: /assets/img/banners/buds2019.jpg
+  position: 50% 50%
+  title: News
+  subtitle: ''
