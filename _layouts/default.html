@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  {% feed_meta %}
+  <link rel="icon" href="{{ '/assets/img/favicon.png' | relative_url }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap">
+  <link rel="preconnect" href="https://use.typekit.net" crossorigin>
+  <!-- Adobe Fonts web project: Proxima Nova, Adobe Garamond Pro, Effra -->
+  <link rel="stylesheet" href="https://use.typekit.net/xtb8lri.css">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ site.time | date: '%s' }}">
+  {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">
+  <link rel="canonical" href="{{ page.redirect_to }}">{% endif %}
+</head>
+{% assign banner = site.data.banners[page.banner] %}
+<body class="{% if banner %}has-banner{% else %}no-banner{% endif %}">
+  {% include header.html %}
+  {% if banner %}
+  <div class="banner" data-focal="{{ banner.position | default: '50% 50%' }}">
+    <div class="banner-image" style="background-image: url('{{ banner.image | relative_url }}'); background-position: {{ banner.position | default: '50% 50%' }};"><div class="banner-overlay"></div></div>
+    <div class="banner-desc">
+      {% if banner.title %}<p class="banner-title">{{ banner.title }}</p>{% endif %}
+      {% if banner.subtitle %}<p class="banner-subtitle">{{ banner.subtitle }}</p>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+  <main id="page" class="page">
+    {% include folder-nav.html %}
+    <div class="main-content{% if folder_item %} with-folder-nav{% endif %}">
+      {{ content }}
+    </div>
+  </main>
+  {% include footer.html %}
+  <script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+</body>
+</html>

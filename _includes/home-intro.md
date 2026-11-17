@@ -1,0 +1,3 @@
+Welcome to the Data-intensive Systems and Computing (DiSC) lab. We investigate research problems in Data Management and Data Systems. We are interested in designing, building, and tuning data systems, and we investigate research problems on data systems for the cloud, hybrid transactional analytical processing, and software-hardware co-design. We are a team of data systems enthusiasts aspiring to build the data systems of the future. Visit our [news](/news) and [publications](/publications) to find out more about our work.
+
+The DiSC lab is a branch of [MiDAS group](https://midas.bu.edu) in the [Computer Science Department](https://www.bu.edu/cs) at [Boston University](https://www.bu.edu), directed by [Prof. Manos Athanassoulis](https://cs-people.bu.edu/mathan/).

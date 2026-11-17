@@ -1,0 +1,15 @@
+<ul class="team-grid {{ include.size }}">
+  {% for p in include.people %}
+  <li class="person">
+    {% if p.website %}<a href="{{ p.website }}" target="_blank" rel="noopener">{% endif %}<img src="{{ p.photo | relative_url }}" alt="{{ p.name }}" loading="lazy">{% if p.website %}</a>{% endif %}
+    <div class="caption">
+      {% if p.office %}
+      <p><strong>{{ p.name }}</strong></p>
+      <p><strong>{{ p.roles | join: "<br>" }}</strong><br>Office {{ p.office }}{% if p.email %}<br>{{ p.email }}{% endif %}{% if p.website %}<br><a href="{{ p.website }}" target="_blank" rel="noopener">website</a>{% endif %}</p>
+      {% else %}
+      <p><strong>{{ p.name }}<br>{% if p.next %}<em>{{ p.roles | join: ", " }}</em>{% else %}{{ p.roles | join: "<br>" }}{% endif %}</strong>{% if p.next %}<br>next: {{ p.next }}{% endif %}</p>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>

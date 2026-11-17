@@ -1,0 +1,8 @@
+{% assign n = include.post %}
+<div class="summary-item">
+  {% if n.image %}<a class="summary-thumbnail" href="{{ n.url | relative_url }}"><img src="{{ n.image | relative_url }}" alt="" loading="lazy"></a>{% endif %}
+  <div class="summary-content">
+    <div class="summary-title"><a href="{{ n.url | relative_url }}">{{ n.title }}</a></div>
+    <div class="summary-meta"><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%B %-d, %Y" }}</time></div>
+  </div>
+</div>

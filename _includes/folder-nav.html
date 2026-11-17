@@ -1,0 +1,13 @@
+{%- comment -%} Sidebar shown on pages that live inside a header dropdown (e.g. Research), like Squarespace's folder nav. {%- endcomment -%}
+{%- assign folder_item = nil -%}
+{%- for item in site.data.navigation -%}{%- for c in item.children -%}{%- if c.url == page.url or c.url == page.permalink -%}{%- assign folder_item = item -%}{%- endif -%}{%- endfor -%}{%- endfor -%}
+{%- if folder_item -%}
+<nav class="folder-nav" aria-label="{{ folder_item.title }}">
+  <ul>
+    <li class="nav-section-label">{{ folder_item.title }}</li>
+    {%- for c in folder_item.children %}
+    <li><a href="{{ c.url | relative_url }}"{% if c.url == page.url or c.url == page.permalink %} class="active"{% endif %}{% if c.url contains '://' %} target="_blank" rel="noopener"{% endif %}>{{ c.title }}</a></li>
+    {%- endfor %}
+  </ul>
+</nav>
+{%- endif -%}

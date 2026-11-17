@@ -1,0 +1,10 @@
+---
+layout: default
+title: Publications
+permalink: /publications
+banner: publications
+---
+{% assign papers = site.papers | sort: "order" | reverse %}
+<div class="summary-list papers">
+  {% for p in papers %}{% include paper-card.html paper=p %}{% endfor %}
+</div>
