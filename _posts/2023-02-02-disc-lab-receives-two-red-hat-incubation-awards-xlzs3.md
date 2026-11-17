@@ -9,7 +9,7 @@ DiSC lab [received three Red Hat incubation awards](https://www.bu.edu/hic/2023/
 
 - "Relational Memory Controller" (with [Renato Mancuso](https://cs-people.bu.edu/rmancuso/), [Uli Drepper](https://research.redhat.com/blog/project_member/ulrich-drepper/), and [Ahmed Sanaullah](https://research.redhat.com/blog/project_member/ahmed-sanaullah/))
 - "Toward On-The-Fly Reorganization of High-Order Data Objects" (with [Renato Mancuso](https://cs-people.bu.edu/rmancuso/), [Uli Drepper](https://research.redhat.com/blog/project_member/ulrich-drepper/), and [Ahmed Sanaullah](https://research.redhat.com/blog/project_member/ahmed-sanaullah/))
-- "Learned Cost-Models for Robust Tuning" (with [Evimaria Terzi](http://cs-people.bu.edu/evimaria/))
+- "Learned Cost-Models for Robust Tuning" (with [Evimaria Terzi](https://cs-people.bu.edu/evimaria/))
 
 Thanks Red Hat for the generous support!
 
