@@ -3,8 +3,8 @@ title: 'Access Path Selection in Main-Memory Optimized Data Systems: Should I Sc
 date: 2017-05-02 02:36:00 +0000
 tags:
 - ACM SIGMOD
-venue: Proceedings of the ACM SIGMOD International Conference on Management of Data
-authors: ', 2017 Michael Kester, Manos Athanassoulis, Stratos Idreos'
+venue: Proceedings of the ACM SIGMOD International Conference on Management of Data, 2017
+authors: Michael Kester, Manos Athanassoulis, Stratos Idreos
 links:
 - label: ACM DL
   url: https://dl.acm.org/citation.cfm?id=3064049

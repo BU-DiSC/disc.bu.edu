@@ -20,7 +20,7 @@ A key design decision for data systems is whether
 they follow the row-store or the column-store paradigm. The
 former supports transactional workloads, while the latter is better
 for analytical queries. This decision has a significant impact
-on the entire data system architecture. The multiple-decadelong journey of these two designs has led to a new family of
+on the entire data system architecture. The multiple-decade-long journey of these two designs has led to a new family of
 hybrid transactional/analytical processing (HTAP) architectures.
 Several efforts have been proposed to reap the benefits of both
 worlds by proposing systems that maintain multiple copies of

@@ -2,7 +2,7 @@
 title: Two papers accepted for DAMON 2021!
 date: 2021-05-28 02:57:18 +0000
 image: /assets/img/news-blog/embeddedimage.png
-permalink: /news-blog/prof-athanassoulis-receives-red-hat-donation-for-work-on-software-hardware-co-design-for-near-memory-query-processing-7eegx
+permalink: /news-blog/two-papers-accepted-for-damon-2021
 ---
 
 Two papers to be presented in [DAMON 2021](https://sites.google.com/view/damon2021), the premier workshop for data management research on new hardware, co-located with [ACM SIGMOD 2021](https://2021.sigmod.org/):

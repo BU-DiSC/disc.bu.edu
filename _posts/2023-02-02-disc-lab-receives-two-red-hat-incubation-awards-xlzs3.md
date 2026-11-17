@@ -2,7 +2,7 @@
 title: DiSC lab receives three Red Hat Incubation Awards!
 date: 2023-02-02 00:57:00 +0000
 image: /assets/img/news-blog/redhat.png
-permalink: /news-blog/disc-lab-receives-two-red-hat-incubation-awards-xlzs3
+permalink: /news-blog/disc-lab-receives-three-red-hat-incubation-awards
 ---
 
 DiSC lab [received three Red Hat incubation awards](https://www.bu.edu/hic/2023/02/01/2023-red-hat-collaboratory-research-incubation-awards-recipients/) on:

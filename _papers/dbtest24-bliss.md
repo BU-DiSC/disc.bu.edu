@@ -22,7 +22,7 @@ permalink: /papers/dbtest24-bliss
 
 Database systems use indexes on frequently accessed attributes to accelerate query and transaction processing. This requires paying the cost of maintaining and updating those indexes, which can be thought of as the process of adding structure (e.g., sort) to an otherwise unstructured data collection. The indexing cost is redundant when data arrives pre-structured, i.e., pre-sorted, even if only *up to some degree*. While recent work has studied how classic indexes like B+-trees cannot fully exploit the intrinsic *near-sortedness* during ingestion, this exploration is lacking on index designs like read-optimized learned indexes or write-optimized LSM-trees.
 
-In this paper, we bridge this gap by conducting the first-ever study on the behavior of state-of-the-art learned indexes and LSM-trees when varying the degree of data sortedness in an ingestion workload. Specifically, we build on prior work on benchmarking data sortedness on B+-treesand we expand the scope to benchmark:
+In this paper, we bridge this gap by conducting the first-ever study on the behavior of state-of-the-art learned indexes and LSM-trees when varying the degree of data sortedness in an ingestion workload. Specifically, we build on prior work on benchmarking data sortedness on B+-trees and we expand the scope to benchmark:
 
 (i) ALEX and LIPP, which are updatable learned index designs; and
 

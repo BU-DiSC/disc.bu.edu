@@ -14,7 +14,7 @@ order: 53
 permalink: /papers/vldb23-phdworkshop-shamba
 ---
 
-Bloom Filiters (BFs) are typically employed to alleviate unnecessary disk accesses to faciliate point lookup in LSM trees. They
+Bloom Filiters (BFs) are typically employed to alleviate unnecessary disk accesses to facilitate point lookup in LSM trees. They
 are particularly beneficial when there is a significant performance difference between probing a Bloom filter (hashing and
 accessing memory) and accessing data (on secondary storage). However, this gap is decreasing as SSDs and NVMs have
 increasingly lower latency, to the point that the cost of accessing data can be comparable to that of hashing and filter probing,

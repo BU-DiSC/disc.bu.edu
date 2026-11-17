@@ -56,7 +56,7 @@ CAS CS561
 
 # Data Systems Architectures
 
-Advanced-level research seminar that introduces studenst to data systems research. Learn about data systems architectures, design tradeoffs, the impact of new hardware and new workloads.
+Advanced-level research seminar that introduces students to data systems research. Learn about data systems architectures, design tradeoffs, the impact of new hardware and new workloads.
 
 **Instructor:** [Manos Athanassoulis](https://cs-people.bu.edu/mathan/)
 
@@ -98,7 +98,7 @@ CAS CS697
 
 # Graduate Initiation Seminar (Spring 2020)
 
-This required two-credit course is designed to help guide entering Ph.D. students through the challenging transition into the graduate program in Computer Science. The class prepares the incoming Ph.D. students for their responsibilities as students, reserchers, and mentors and covers topics that overlap with the NSF/NIH Responsible Conduct in Research (RCR) program.
+This required two-credit course is designed to help guide entering Ph.D. students through the challenging transition into the graduate program in Computer Science. The class prepares the incoming Ph.D. students for their responsibilities as students, researchers, and mentors and covers topics that overlap with the NSF/NIH Responsible Conduct in Research (RCR) program.
 
 **Instructors:** [Manos Athanassoulis](https://cs-people.bu.edu/mathan/), [Ankush Dash](https://ankushdas.github.io/) (Spring 2026)
 
