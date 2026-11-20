@@ -54,15 +54,8 @@ sections:
     - U-grad Researcher
     year:
     photo: /assets/img/team/2025-rise-philip-chindris.jpg
-- title: Postdoctoral and Graduate Researchers
+- title: Postdoctoral Researchers
   people:
-  - name: Dimitris Staratzis
-    roles:
-    - Graduate Researcher
-    year: 2020-12
-    next: Software Eng. at TileDB Inc.
-    photo: /assets/img/team/dimitris.jpg
-    website: https://www.linkedin.com/in/dimitris-staratzis-4b388b170/
   - name: Subhadeep Sarkar
     roles:
     - Postdoc Researcher
@@ -77,6 +70,8 @@ sections:
     next: Asst. Prof. at Brandeis
     photo: /assets/img/news-blog/juhyoung.jpg
     website: https://www.linkedin.com/in/ju-hyoung-mun-791861166/
+- title: Graduated PhD Students
+  people:
   - name: Zichen Zhu
     roles:
     - PhD Researcher
@@ -91,13 +86,6 @@ sections:
     next: Asst. Professor at UMass Boston
     photo: /assets/img/news-blog/papon.jpg
     website: https://www.linkedin.com/in/tarikul-islam-papon-264581191/
-  - name: Kostas Karatsenidis
-    roles:
-    - Graduate Researcher
-    year: 2025-07
-    next: Software Eng. at Tower Research Cap.
-    photo: /assets/img/team/kostaskaratsenidis.png
-    website: https://www.linkedin.com/in/karatse/
   - name: Aneesh Raman
     roles:
     - PhD Researcher
@@ -112,6 +100,22 @@ sections:
     next: Software Eng. at Google
     photo: /assets/img/team/andy.jpg
     website: https://www.linkedin.com/in/ndhuynh0/
+- title: Graduate Researchers
+  people:
+  - name: Dimitris Staratzis
+    roles:
+    - Graduate Researcher
+    year: 2020-12
+    next: Software Eng. at TileDB Inc.
+    photo: /assets/img/team/dimitris.jpg
+    website: https://www.linkedin.com/in/dimitris-staratzis-4b388b170/
+  - name: Kostas Karatsenidis
+    roles:
+    - Graduate Researcher
+    year: 2025-07
+    next: Software Eng. at Tower Research Cap.
+    photo: /assets/img/team/kostaskaratsenidis.png
+    website: https://www.linkedin.com/in/karatse/
 - title: Visiting Researchers
   people:
   - name: Xiyue Gao
