@@ -3,7 +3,7 @@ title: 'DDC: Decoupling Data and Control for Bitmap Compression'
 date: 2026-11-18 12:00:00 +0000
 tags:
 - PVLDB
-venue: Proceedings of the VLDB Endowment, to appear
+venue: Proceedings of the VLDB Endowment, Vol. 20(4), 2026
 authors: Junchang Wang, Chenhang Li, Weibei Fan, Fu Xiao, Manos Athanassoulis
 links:
 - label: Official PDF
