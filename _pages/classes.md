@@ -60,7 +60,7 @@ Advanced-level research seminar that introduces students to data systems researc
 
 **Instructor:** [Manos Athanassoulis](https://cs-people.bu.edu/mathan/)
 
-**Class Website:** [Spring2026](https://bu-disc.github.io/CS561/), [Spring2025](https://bu-disc.github.io/CS561-Spring2025/), [Spring 2024](https://bu-disc.github.io/CS561-Spring2024/) (Instructors: [Tarikul Islam Papon](https://cs-people.bu.edu/papon/) & [Zichen Zhu](https://cs-people.bu.edu/zczhu/)), [Spring 2023](https://bu-disc.github.io/CS561-Spring2023/) (Instructor: [Subhadeep Sarkar](https://subhadeep.net/)), [Spring 2022](https://bu-disc.github.io/CS561-Spring2022/), [Spring 2021](https://bu-disc.github.io/CS561-Spring2021/)
+**Class Website:** [Spring 2027](https://bu-disc.github.io/CS561/), [Spring2026](https://bu-disc.github.io/CS561-Spring2026/), [Spring2025](https://bu-disc.github.io/CS561-Spring2025/), [Spring 2024](https://bu-disc.github.io/CS561-Spring2024/) (Instructors: [Tarikul Islam Papon](https://cs-people.bu.edu/papon/) & [Zichen Zhu](https://cs-people.bu.edu/zczhu/)), [Spring 2023](https://bu-disc.github.io/CS561-Spring2023/) (Instructor: [Subhadeep Sarkar](https://subhadeep.net/)), [Spring 2022](https://bu-disc.github.io/CS561-Spring2022/), [Spring 2021](https://bu-disc.github.io/CS561-Spring2021/)
 
 </div>
 </div>
