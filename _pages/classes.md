@@ -96,13 +96,13 @@ CAS CS697
 </div>
 <div class="sqs-col span-10" markdown="1">
 
-# Graduate Initiation Seminar (Spring 2020)
+# Graduate Initiation Seminar
 
 This required two-credit course is designed to help guide entering Ph.D. students through the challenging transition into the graduate program in Computer Science. The class prepares the incoming Ph.D. students for their responsibilities as students, researchers, and mentors and covers topics that overlap with the NSF/NIH Responsible Conduct in Research (RCR) program.
 
 **Instructors:** [Manos Athanassoulis](https://cs-people.bu.edu/mathan/), [Ankush Dash](https://ankushdas.github.io/) (Spring 2026)
 
-**Class Website:** [Spring 2026](https://bu-disc.github.io/CS697/), [Spring 2020](http://cs-people.bu.edu/mathan/classes/CS697-Spring2020/) (Instructors: [Steve Homer](https://www.bu.edu/cs/profiles/homer/), [Manos Athanassoulis](https://cs-people.bu.edu/mathan/))
+**Class Website:** [Spring 2026](https://bu-disc.github.io/CS697/) (Instructors: [Manos Athanassoulis](https://cs-people.bu.edu/mathan/), [Ankush Dash](https://ankushdas.github.io/)), [Spring 2020](http://cs-people.bu.edu/mathan/classes/CS697-Spring2020/) (Instructors: [Steve Homer](https://www.bu.edu/cs/profiles/homer/), [Manos Athanassoulis](https://cs-people.bu.edu/mathan/))
 
 </div>
 </div>
@@ -112,5 +112,5 @@ This required two-credit course is designed to help guide entering Ph.D. student
 Related [MiDAS](https://midas.bu.edu) Courses
 
 - CAS CS 562 Advanced Database Applications — [Prof. Kollios](http://www.cs.bu.edu/fac/gkollios/)
-- CAS CS 660 Graduate Introduction to Database Systems — [Prof. Kollios](http://www.cs.bu.edu/fac/gkollios/)
+- CAS CS 660 Graduate Introduction to Database Systems — [Prof. Kollios](http://www.cs.bu.edu/fac/gkollios/), [Prof. Deeds](https://www.bu.edu/cs/profiles/kyle-deeds/)
 - CAS CS 565 Algorithmic Data Mining — [Prof. Terzi](https://cs-people.bu.edu/evimaria/)
